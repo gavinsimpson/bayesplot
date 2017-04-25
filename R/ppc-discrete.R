@@ -271,7 +271,6 @@ ppc_rootogram <- function(y,
     graph <- graph + dont_expand_y_axis()
 
   graph +
-    theme_default() +
     reduce_legend_spacing(0.25)
 }
 
@@ -387,7 +386,6 @@ ppc_bars_yrep_data <- function(y, yrep, probs, freq = TRUE, group = NULL) {
   }
 
   graph +
-    theme_default() +
     reduce_legend_spacing(0.25)
 }
 

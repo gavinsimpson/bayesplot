@@ -611,8 +611,7 @@ pairs_condition <- function(chains = NULL, draws = NULL, nuts = NULL) {
   }
 
   graph +
-    labs(x = parnames[1], y = parnames[2]) +
-    theme_default()
+    labs(x = parnames[1], y = parnames[2])
 }
 
 

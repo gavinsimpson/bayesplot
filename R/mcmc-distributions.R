@@ -244,7 +244,6 @@ mcmc_violin <- function(x,
   }
   graph +
     dont_expand_y_axis(c(0.005, 0)) +
-    theme_default() +
     yaxis_text(FALSE) +
     yaxis_title(FALSE) +
     yaxis_ticks(FALSE) +
@@ -313,7 +312,6 @@ mcmc_violin <- function(x,
   graph +
     do.call("facet_wrap", facet_args) +
     dont_expand_y_axis(c(0.005, 0)) +
-    theme_default() +
     yaxis_text(FALSE) +
     yaxis_title(FALSE) +
     yaxis_ticks(FALSE) +
